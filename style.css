@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+:root {
+  --primary-color: #dae952;
+  --secondary-color: rgb(218, 233, 82, 0.2);
+  --background-color: #ffffff;
+  --text-color: #000000;
+}
+body {
+  font-family: "Inter", serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+/* nabvar style */
+.navbar-brand img {
+  width: 3rem;
+}
+.btn-primary {
+  background-color: var(--primary-color);
+  border: var(--primary-color);
+}
+.btn-primary:hover {
+  background-color: #b1c02d;
+  border: #b1c02d;
+}
+h1 {
+  font-size: 5rem;
+}
+.hero-header p {
+  font-size: 1.5rem;
+}
+.hero-header .btn {
+  font-size: 1.5rem;
+}
+main {
+  overflow-x: hidden;
+}
+.decore {
+  right: -7rem;
+}
+.decore3 {
+  bottom: 0;
+  left: 5rem;
+}
+.custom-navbar {
+  background-color: var(--background-color);
+}
+.menu-custum {
+  background-color: var(--secondary-color);
+}
+.menu-custum .card {
+  width: 10rem;
+}
+h2 {
+  font-size: 2.25rem;
+}
+.menu-custum span,
+.overview span {
+  color: var(--primary-color);
+}
+.card {
+  border-radius: 0 30px;
+}
+.custom-card {
+  width: 22rem;
+  background-color: var(--primary-color);
+}
+.circle {
+  background-color: var(--primary-color);
+}
+.circle img {
+  width: 6rem;
+}
+.contact form {
+  width: 25rem;
+}
+.contact button {
+  right: 1.5rem;
+  top: 0.5rem;
+}
+.decore5 {
+  top: 5.5rem;
+  right: 15rem;
+}
+.decore6 {
+  top: 15rem;
+  right: 2rem;
+}
+@media screen and (min-width: 992px) {
+  body {
+    font-size: 16px;
+  }
+  .custom-navbar {
+    background-color: transparent; /* Transparent for lg and up */
+  }
+  .menu-custum .card {
+    width: 13rem;
+  }
+  .contact form {
+    width: 40rem;
+  }
+  h3 {
+    font-size: 2.5rem;
+  }
+  .decore1 {
+    top: 8rem;
+    left: 10rem;
+  }
+  .decore4 {
+    top: 20rem;
+    left: 30rem;
+  }
+
+  .decore5 {
+    top: 5rem;
+    right: 15rem;
+  }
+  .decore6 {
+    left: 20rem;
+    bottom: 12rem;
+  }
+}
+@media screen and (min-width: 1200px){
+    .menu-custum .card {
+        width: 16rem;
+      }
+}
